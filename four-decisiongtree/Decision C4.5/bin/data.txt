@@ -1,0 +1,37 @@
+ //eg 1
+String attr = "age income student credit_rating";  
+        String[] set = new String[12];  
+        set[0] = "youth high no fair no";  
+        set[1] = "youth high no excellent no";  
+        set[2] = "middle_aged high no fair yes";  
+        set[3] = "senior low yes fair yes";  
+        set[4] = "senior low yes excellent no";  
+        set[5] = "middle_aged low yes excellent yes";  
+        set[6] = "youth medium no fair no";  
+        set[7] = "youth low yes fair yes";  
+        set[8] = "senior medium yes fair yes";  
+        set[9] = "youth medium yes excellent yes";  
+        set[10] = "middle_aged high yes fair yes";  
+        set[11] = "senior medium no excellent no"; 
+        
+        
+    //eg 2     
+          String attr = "num fun gett sett acti conclution";  
+        String[] set = new String[17];  
+        set[0] = "log function null null Error malicious";  
+        set[1] = "random function Date null null malicious";  
+        set[2] = "null function Date null null malicious";  
+        set[3] = "null function null null null malicious";  
+        set[4] = "null function null null apply malicious";  
+        set[5] = "random function Date null apply malicious";  
+        set[6] = "random function null null null malicious";  
+        set[7] = "null function Date null RegExp malicious";  
+        set[8] = "null function null null hasOwnProperty benign";  
+        set[9] = "null function null null error benign";  
+        set[10] = "math parseInt null null call benign";  
+        set[11] = "random parseInt Date setdate call benign";  
+        set[12]="random parse getTime null RegExp benign";
+        set[13]="random function getTime setTime RegExp benign";
+        set[14]="null function null null null benign";
+        set[15]="null parseInt getTime null Object benign";
+        set[16]="math parseInt null null RegExp benign";

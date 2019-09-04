@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="Tomcat 7.0.86" scope="PROVIDED"/>
+	<levels>
+		<level name="Tomcat 7.0.86" value="application_server_libraries"/>
+	</levels>
+</component>
